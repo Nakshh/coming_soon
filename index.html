@@ -41,6 +41,31 @@ hr {
   margin: auto;
   width: 40%;
 }
+  
+a.button1{
+ display:inline-block;
+ padding:0.35em 1.2em;
+ border:0.1em solid #FFFFFF;
+ margin:0 0.3em 0.3em 0;
+ border-radius:0.12em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Roboto',sans-serif;
+ font-weight:300;
+ color:#FFFFFF;
+ text-align:center;
+ transition: all 0.2s;
+}
+a.button1:hover{
+ color:#000000;
+ background-color:#FFFFFF;
+}
+@media all and (max-width:30em){
+ a.button1{
+  display:block;
+  margin:0.4em auto;
+ }
+}
 </style>
 <body>
 
@@ -54,7 +79,7 @@ hr {
     <p id="demo" style="font-size:30px"></p>
   </div>
   <div class="bottomleft">
-    <p>While you wait, you can see my resume <a href="resume.pdf">here</a></p>
+    <p>While you wait, you can see my resume <a href="resume.pdf" class="button1">Here</a></p>
   </div>
 </div>
 
