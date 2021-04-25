@@ -1,5 +1,5 @@
 # Coming Soon Page
-## Simple coming soon page I used before completeing my personal website
+## Simple coming soon page before my site is complete
 
 Hosted at: https://nakshhkohli.com
 
